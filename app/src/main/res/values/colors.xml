@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="bronze">#B08D57</color>
+    <color name="black">#000000</color>
+    <color name="background">#F0FFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="primary">#795548</color>
+    <color name="secondary">#5D4037</color>
+    <color name="suede">#FF9800</color>
+    <color name="brown">#D2691E</color>
+    <color name="green">#228B22</color>
+    <color name="blue">#1e90ff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="ruby">#841B2D</color>
+    <color name="my_card_background">@color/primary</color>
+    <color name="my_fab_normal">@color/secondary</color>
+    <color name="my_fab_pressed">@color/background</color>
+    <!--ToDo modified: colors added for better UI -->
+
+</resources>
+

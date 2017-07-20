@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/sagar/Desktop/android_1/EnhancedToDoList/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/sagar/Desktop/android_1/EnhancedToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_263177cffac63420b4c846ed6c70a87efcf04dab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sagar/.android/build-cache/4f19ba5c5868a387c1e4267dedaa4e4ee5b05907/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/sagar/Desktop/android_1/EnhancedToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ea453cf0809f2a31dc2b1c740b3892de3394e3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sagar/Desktop/android_1/EnhancedToDoList/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e4f33175ad5c3318af9f7e85e07285531ed3f82">
+        <dex dex="/Users/sagar/Desktop/android_1/EnhancedToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b7d4f7b7a2a7e0f6efde3b74929dab7eb69775a3/classes.dex" />
+    </item>
+
+</items>

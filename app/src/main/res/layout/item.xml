@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    card_view="http://schemas.Android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cv"
+    card_view:contentPadding="60dp"
+    android:backgroundTint="@color/cardview_light_background"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardMaxElevation="5dp"
+    card_view:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/description"
+            android:layout_above="@+id/view" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To do description"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_marginStart="75dp"
+            android:layout_alignTop="@+id/checkBox"
+            android:layout_toEndOf="@+id/checkBox"
+            android:layout_alignBottom="@+id/checkBox" />
+        <!-- ToDo modifications: changed the font patterns-->
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/dueDate"
+            android:background="@android:color/black"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
